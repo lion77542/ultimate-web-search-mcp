@@ -1,0 +1,19 @@
+{
+  "name": "astrbot-web-search-mcp",
+  "version": "4.0.0",
+  "type": "module",
+  "description": "Production-grade multi-engine web search MCP server for AstrBot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "keywords": ["mcp", "search", "astrbot", "bing", "quark", "sogou", "360", "yandex"],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "cheerio": "^1.0.0",
+    "@mozilla/readability": "^0.5.0",
+    "jsdom": "^25.0.0"
+  }
+}
